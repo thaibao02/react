@@ -129,6 +129,7 @@ export const BodyLab2 = () => {
       </div>
       <div class="send">
         <button>Send Message</button>
+        <div></div>
       </div>
     </div>
   );
