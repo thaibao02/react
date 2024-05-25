@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+.slide{
+  height: 400px;
+  margin-bottom: 30px;
+}
+.carousel-inner img {
+  max-height: 400px; /* Chiều cao tối đa của hình ảnh */
+  object-fit: cover; /* Đảm bảo hình ảnh giữ tỷ lệ */
+}
+.new-price {
+  color: red;
+  font-weight: bold;
+  margin-left: 10px; /* Khoảng cách giữa giá cũ và giá mới */
+}
+
+.send button{
+  margin-top: 10px;
+  padding:  10px;
+  background-color: rgb(221, 184, 21);
+  color: white;
+  text-align: center;
+  
+}
+.sale-badge {
+  position: absolute;
+  background-color: yellow;
+  color: black;
+  padding: 5px 30px;
+  font-weight: bold;
+  z-index: 1;
+  border-radius: 3px;
+}
+.row-body{
+  margin-bottom: 40px;
+}
+
+.booktable{
+  margin-bottom: 35px;
+}
+
+.custom-textarea {
+  height: 200px; /* Chiều cao tùy chỉnh cho textarea */
+  width: 100%;  /* Chiều rộng tùy chỉnh cho textarea */
+  padding: 10px; /* Padding bên trong textarea */
+  font-size: 1rem; /* Kích thước chữ */
+  border-radius: 0.25rem; /* Bo góc */
+}
+
+
+.container h3{
+  margin-right: 40px;
+}
+.nav-link{
+  margin-right: 20px;
+}
+.f{
+  height: 50px;
+}
+
